@@ -415,6 +415,209 @@ section{
 } 
 
 
+/* ------------------------------------------Service section CSS------------------------------------------------- */
+
+.main-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--hover-color);
+}
+
+.main-text h2{
+    font-weight: 700;
+    font-size: var(--normal-font);
+}
+
+.main-text span{
+    color: #fdfdfd;
+    font-size: .8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+
+}
+
+.section-services .service-box{
+    flex: 1 1 18rem;
+    padding: 2rem 1rem 2rem; 
+    text-align: center;
+    background: var(--secon-bg-color);
+    transition: transform .4s;
+    border-radius: 10px;
+}
+
+.service-btn{
+    width: auto;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.service-box:hover{
+    transform: translateY(-.7rem);
+}
+
+.service-icon{
+    border: 2px solid var(--hover-color);
+    padding: 2rem;
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    border-radius:50%;
+    position: relative;
+    color: var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bg-color);
+}
+
+.service-box h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.service-box p{
+    margin: .5rem 0 1.5rem o;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    line-height: 1.6;
+}
+
+/* ------------------------------------------SKILL section CSS------------------------------------------------- */
+
+.skills{
+    background: var(--secon-bg-color);
+}
+
+.skill-main{
+   width: 100%;
+   display:grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-row-gap:30px;
+   grid-column-gap: 50px; 
+}
+
+.skill-bar{
+    margin-bottom: 2.3rem;
+}
+
+.skill-main h3{
+margin-bottom: 2rem;
+font-size: var(--normal-font);
+text-align: center;
+}
+
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: var(--hover-color);
+    border-radius: 25px;
+    box-shadow: var(--neon-box-shadow);
+}
+
+.skill-bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+
+.skill-bar .bar .figma{
+    width: 73%;
+    animation: figma 3s;
+}
+
+.skill-bar .bar .javascript{
+    width: 70%;
+    animation: javascript 4s;
+}
+
+.skill-bar .bar .css{
+    width: 85%;
+    animation: css 5s;
+}
+
+/* Skill right */
+
+.professional{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    position: relative;
+    margin: 10px 0;
+    flex: 1 1 15rem;
+}
+
+.box .text{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.box .text big{
+    font: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.box .text small{
+    display: block;
+    font-weight: 600;
+} 
+
+.circle{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .points{
+    width: 2px;
+    height:10px;
+    background-color: var(--bg-color);
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
+}
+
+.points.marked{
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i)*0.05s);
+}
+
+
 
 
 
