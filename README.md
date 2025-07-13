@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my web development skills, featured projects, and experience.
 
 ## 🔗 Live Demo
-[Visit my portfolio]()
+[Visit my portfolio](https://kushanruwanpathirana.github.io/personal-portfolio-/)
 
 ## 📌 Sections
 - **Header**
